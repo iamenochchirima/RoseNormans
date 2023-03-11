@@ -1,5 +1,5 @@
 import "@/styles/globals.css";
-import { Barlow } from "@next/font/google";
+import { Barlow } from "next/font/google";
 
 const barlow = Barlow({
   subsets: ["latin"],
