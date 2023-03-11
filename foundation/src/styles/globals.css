@@ -92,3 +92,19 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+
+/* CSS for screens smaller than `md` breakpoint */
+@media (max-width: 1060px) {
+  .hero-bg {
+    background: url('/Rose.jpeg');
+  }
+}
+
+/* CSS for screens larger than `md` breakpoint */
+@media (min-width: 1060px) {
+  .hero-bg {
+    background-image: none;
+    background-color: black;
+  }
+}

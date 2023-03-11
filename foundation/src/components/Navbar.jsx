@@ -36,14 +36,17 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <ul className="flex space-x-10 font-medium">
-          {navlinks.map(navlink => {
+        <ul className="flex space-x-10 font-medium items-center">
+          {navlinks.map((navlink) => {
             return (
               <li key={navlink.id} className="">
                 <Link href="#">{navlink.name}</Link>
               </li>
             );
           })}
+          <li className="bg-blue-500 rounded-2xl py-1 px-4">
+            <Link href={"#"}>Contact Us</Link>
+          </li>
         </ul>
       </div>
     </div>
