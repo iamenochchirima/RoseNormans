@@ -22,7 +22,7 @@ const Navbar = () => {
     <div
       className={`${
         isSticky ? "fixed top-0 left-0 right-0 z-50" : "relative"
-      } bg-gray-800 text-white p-4 opacity-100 `}
+      } bg-gray-900 text-white p-4 opacity-100 `}
     >
       <div className="flex justify-between items-center mx-5">
         <div className="flex items-center space-x-2">

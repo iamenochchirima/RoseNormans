@@ -1,4 +1,5 @@
 import "@/styles/globals.css";
+import '@fontsource/inter';
 import { Barlow } from "next/font/google";
 
 const barlow = Barlow({
