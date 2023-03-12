@@ -12,6 +12,7 @@ const Footer = () => {
             <Image
               className=""
               src={"/icon.svg"}
+              alt="Rose normans logo"
               width="50"
               height="50"
             ></Image>
@@ -49,8 +50,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center border-t mx-10 ss:mx-36 text-sm text-dimWhite">
-        <span>Created by <a className="text-white" href="https://enoch-chirima.vercel.app/" target="_blank">Enoch Chirima</a></span>
+      <div className="flex justify-center mx-10 ss:mx-36 text-sm space-x-2 text-dimWhite p-4 items-center">
+        <span>Copyright © 2023 Rose Normans Foundation. All rights reserved.</span> <span className="text-lg">|</span>
+        <span className="">Created by <a className="text-white" href="https://enoch-chirima.vercel.app/" target="_blank">Enoch Chirima</a></span>
       </div>
     </div>
   );

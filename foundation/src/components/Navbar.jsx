@@ -28,7 +28,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center mx-5">
         <div className="flex items-center space-x-2">
-          <Image className="" src={"/icon.svg"} width="50" height="50"></Image>
+          <Image className="" src={"/icon.svg"} alt="Rose normans logo" width="50" height="50"></Image>
           <ul className="hidden xss:flex flex-col">
             <li className="flex-grow text-lg font-bold">
               ROSE NORMANS FOUNDATION
