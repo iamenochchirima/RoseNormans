@@ -9,17 +9,12 @@ const Services = () => {
           return (
             <div
               key={card.id}
-              className="relative col-span-3 sm:col-span-1 bg-black h-72 rounded-xl ju"
+              style={{ backgroundImage: `url(${card.imageUrl})` }}
+              className="relative bg-cover bg-center col-span-3 rounded-xl sm:col-span-1 h-72 "
             >
-              <div
-                className=" bg-cover bg-center absolute opacity-70 inset-0"
-                style={{ backgroundImage: `url(${card.imageUrl})` }}
-              />
-              <div className="  relative z-10">
-                <div className="p-6">
-                  <h3 className="font-semibold text-lg mb-2">{card.title}</h3>
-                  <p className="">{card.description}</p>
-                </div>
+              <div className="p-6">
+                <h3 className="font-semibold text-lg mb-2">{card.title}</h3>
+                <p className="">{card.description}</p>
               </div>
             </div>
           );
