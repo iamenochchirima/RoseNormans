@@ -1,24 +1,33 @@
 import { cards } from "@/constants";
+import Link from "next/link";
 
 const Services = () => {
   return (
-    <div className="mx-9 my-5">
-      <h1 className="text-center text-4xl pb-5 font-medium">OUR SERVICES</h1>
-      <div className="grid grid-cols-3 gap-8 text-white">
-        {cards.map((card) => {
-          return (
-            <div
-              key={card.id}
-              style={{ backgroundImage: `url(${card.imageUrl})` }}
-              className="relative bg-cover bg-center col-span-3 rounded-xl sm:col-span-1 h-72 "
-            >
-              <div className="p-6">
-                <h3 className="font-semibold text-lg mb-2">{card.title}</h3>
-                <p className="">{card.description}</p>
+    <div className="">
+      <div className="mx-9 my-5">
+        <h1 className="text-center text-2xl sm:text-3xl pb-5 font-medium">OUR SERVICES</h1>
+        <div className="grid grid-cols-3 gap-8 ">
+          {cards.map((card) => {
+            return (
+              <div
+                key={card.id}
+                style={{ backgroundImage: `url(${card.imageUrl})` }}
+                className="relative bg-cover bg-center col-span-3 text-white shadow-xl hover:shadow-gray-600 rounded-xl sm:col-span-1"
+              >
+                <Link className="hover:bg-slate-500" href={'#'}>
+                <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40 rounded-xl"></div>
+                <div className="p-6 relative z-10 ">
+                  <h3 className="font-extrabold text-2xl mb-2 mt-16">
+                    {card.title}
+                  </h3>
+                  <p className="">{card.description}</p>
+                </div>
+                </Link>
               </div>
-            </div>
-          );
-        })}
+             
+            );
+          })}
+        </div>
       </div>
     </div>
   );
