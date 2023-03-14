@@ -95,7 +95,11 @@ a {
 
 @media (max-width: 1060px) {
   .hero-bg {
-    background: url('/Rose.jpeg');
+    background: url('/Rose.jpeg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 }
 
