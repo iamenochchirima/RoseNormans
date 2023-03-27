@@ -12,7 +12,7 @@ const Services = () => {
               <div
                 key={card.id}
                 style={{ backgroundImage: `url(${card.imageUrl})` }}
-                className="relative bg-cover bg-center col-span-3 text-white shadow-xl hover:shadow-gray-600 rounded-xl sm:col-span-1"
+                className="relative bg-cover bg-center col-span-3 text-white shadow-xl hover:scale-105 duration-300 hover:shadow-gray-600 rounded-xl mid:col-span-1"
               >
                 <Link className="hover:bg-slate-500" href={'#'}>
                 <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40 rounded-xl"></div>

@@ -12,6 +12,9 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['var(--font-barlow)'],
+        graphik: ['Graphik', 'sans-serif'],
+        graphikBold: ['Graphik-bold', 'sans-serif'],
+        graphikSemiBold: ['Graphik-semi-bold', 'sans-serif'],
       },
       colors: {
         primary: "#00040f",

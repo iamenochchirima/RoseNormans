@@ -5,13 +5,15 @@ import Footer from "./Footer";
 
 const Layout = ({ title, content, children }) => {
   return (
-    <div className="">
-      <Head>
-        <title>{title}</title>
-      </Head>
-      <Navbar />
-      <div className="">{children}</div>
-      <Footer />
+    <div className="flex font-graphik justify-center items-start">
+      <div className=" xl:max-w-[1500px] w-full ">
+        <Head>
+          <title>{title}</title>
+        </Head>
+        <Navbar />
+        <div className="">{children}</div>
+        <Footer />
+      </div>
     </div>
   );
 };
