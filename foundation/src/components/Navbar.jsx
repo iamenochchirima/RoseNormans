@@ -29,7 +29,7 @@ const Navbar = () => {
           scrolled ? "bg-white shadow-md" : "bg-black text-white"
         } fixed w-full z-20 p-2  ss:p-4 opacity-100 max-w-[1500px]`}
       >
-        <div className="flex justify-between items-center mx-5">
+        <div className="flex justify-between items-center ss:mx-5">
           <div className="flex items-center space-x-2">
             <Image
               className=""

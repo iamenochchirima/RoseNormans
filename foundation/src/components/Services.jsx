@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <div className="">
       <div className="mx-9 my-5">
-        <h1 className="text-center text-2xl sm:text-3xl pb-5 font-medium">OUR SERVICES</h1>
+        <h1 className="text-center font-graphikBold sm:text-3xl pb-5 font-medium">OUR SERVICES</h1>
         <div className="grid grid-cols-3 gap-8 ">
           {cards.map((card) => {
             return (

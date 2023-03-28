@@ -33,11 +33,11 @@ const Projects = () => {
       </div>
       <div className="col-span-2 mid:hidden flex flex-col justify-center gap-4 border-b border-black pb-5">
         {" "}
-        <h1 className="font-graphikBold text-5xl">
+        <h1 className="font-graphikBold text-4xl">
           Empowering Communities for Mental Health and Breaking the Stigma
         </h1>
         <div className="">
-          <button className="border border-black rounded-full px-3 py-2 text-xl font-bold">
+          <button className="border border-black rounded-full px-3 py-2 text-ld font-bold">
             OUR PROJECTS
           </button>
         </div>
