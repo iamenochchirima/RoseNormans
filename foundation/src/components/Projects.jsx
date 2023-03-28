@@ -3,7 +3,7 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div className="grid grid-cols-2 mx-9 my-20">
+    <div className="grid grid-cols-2 mx-9 my-10 mid:my-20">
       <div className="hidden mid:col-span-1 mid:flex flex-col justify-center gap-4">
         <h1 className="font-graphikBold text-5xl">
           Empowering Communities for Mental Health and Breaking the Stigma
@@ -14,8 +14,8 @@ const Projects = () => {
           </button>
         </div>
       </div>
-      <div className="col-span-2 mid:col-span-1  ">
-        <div className="relative w-full h-[300px] mid:h-[400px] object-cover">
+      <div className="col-span-2 mid:col-span-1 border-t border-black pt-10 mid:border-none mid:pt-5 ">
+        <div className="relative w-full h-[300px] mid:h-[400px] object-cover ">
           <div className="absolute bg-gradient-to-t mid:bg-gradient-to-r from-white z-10 w-full h-full"></div>
           <Image
             src="/projects.jpg"
