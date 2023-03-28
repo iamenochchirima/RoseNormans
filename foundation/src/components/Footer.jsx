@@ -51,8 +51,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex justify-center mx-10 ss:mx-36 text-sm space-x-2 text-dimWhite p-4 items-center">
-        <span>Copyright © 2023 Rose Normans Foundation. All rights reserved.</span> <span className="text-lg">|</span>
-        <span className="">Created by <a className="text-white" href="https://enoch-chirima.vercel.app/" target="_blank">Enoch Chirima</a></span>
+        <span>Copyright © 2023 Rose Normans Foundation. All rights reserved.</span>
       </div>
     </div>
   );
