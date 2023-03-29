@@ -1,20 +1,27 @@
+export const API_URL = process.env.NEXT_PUBLIC_API_URL;
+
 export const navlinks = [
     {
       id: 1,
-      name: "Services",
+      name: "Our Projects",
+      url: "/projects"
     },
     {
       id: 2,
-      name: "Our Projects",
+      name: "Gallary",
+      url: "/gallary"
     },
     {
       id: 3,
-      name: "Gallary",
+      name: "Blog",
+      url: '/blog'
     },
     {
       id: 4,
       name: "About Us",
+      url: "/about"
     },
+    
 ]
 
 export const cards = [

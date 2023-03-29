@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Projects = () => {
@@ -9,9 +10,11 @@ const Projects = () => {
           Empowering Communities for Mental Health and Breaking the Stigma
         </h1>
         <div className="">
+          <Link href="/projects">
           <button className="border border-black hover:bg-black hover:text-white rounded-full px-3 py-2 text-xl font-bold">
             OUR PROJECTS
           </button>
+          </Link>
         </div>
       </div>
       <div className="col-span-2 mid:col-span-1 border-t border-black pt-10 mid:border-none mid:pt-5 ">
@@ -27,7 +30,7 @@ const Projects = () => {
             sizes="(max-width: 768px) 100vw,
                   (max-width: 1200px) 50vw,
                   33vw"
-            alt="Article cover image"
+            alt="project cover image"
           />
         </div>
       </div>
@@ -37,9 +40,11 @@ const Projects = () => {
           Empowering Communities for Mental Health and Breaking the Stigma
         </h1>
         <div className="">
-          <button className="border border-black rounded-full px-3 py-2 text-ld font-bold">
-            OUR PROJECTS
-          </button>
+          <Link href="/projects">
+            <button className="border border-black rounded-full px-3 py-2 text-ld font-bold">
+              OUR PROJECTS
+            </button>
+          </Link>
         </div>
       </div>
     </div>

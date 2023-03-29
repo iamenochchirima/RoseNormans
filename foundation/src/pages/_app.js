@@ -2,15 +2,9 @@ import "@/styles/globals.css";
 import '@fontsource/inter';
 import { Barlow } from "next/font/google";
 
-const barlow = Barlow({
-  subsets: ["latin"],
-  variable: '--font-barlow',
-  weight: ["400"],
-});
-
 export default function App({ Component, pageProps }) {
   return (
-    <div className={`${barlow.variable} font-sans`}>
+    <div className={` font-graphik`}>
       <Component {...pageProps} />
     </div>
   );
