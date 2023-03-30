@@ -124,11 +124,11 @@ a {
   }
 }
 
-@media (max-width: 620px) {
+/* @media (max-width: 620px) {
   .footer {
     text-align: center;
   }
-}
+} */
 
 .slide-in-right {
   -webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -205,6 +205,12 @@ a {
 @font-face {
   font-family: 'graphik';
   src: url('../fonts/Graphik-Regular-Trial.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'graphik-extralight';
+  src: url('../fonts/GraphikExtralight.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }

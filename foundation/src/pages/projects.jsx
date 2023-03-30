@@ -68,7 +68,7 @@ const Projects = () => {
                   </div>
                  <div className="mt-3">
                  <h1 className="font-bold my-5 font-graphikBold ">{project.project_title}</h1>
-                  <p>{project.body}</p>
+                 <div dangerouslySetInnerHTML={{ __html: project.body }} />
                  </div>
                 </div>
               </div>

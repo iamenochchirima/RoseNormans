@@ -53,7 +53,7 @@ const PagesNavbar = () => {
               </ul>
             </div>
           </Link>
-          <ul className="mid:flex space-x-3 md:space-x-10 hidden font-medium items-center">
+          <ul className="mid:flex space-x-3 md:space-x-10 hidden font-bold items-center">
             {navlinks.map((navlink) => {
               return (
                 <li key={navlink.id} className="">
@@ -61,31 +61,27 @@ const PagesNavbar = () => {
                 </li>
               );
             })}
-            <li className="text-white bg-blue-500 rounded-2xl py-1 px-4">
-              <Link href="/projects">Contact Us</Link>
+            <li className="text-white bg-blue-500 font-bold rounded-2xl py-1 px-4">
+              <Link href="/support">Support Us</Link>
             </li>
           </ul>
           {showMenu && (
-            <div className="fixed top-0 left-0 right-0 bottom-0 z-50 bg-black bg-opacity-70 flex items-center justify-center">
+            <div className="fixed top-0 left-0 right-0 bottom-0 z-50 flex items-center justify-center">
               <div
-                className={`${
-                  showMenu ? "slide-in-right" : "slide-out-right"
-                } flex flex-col pt-2 pb-5 px-4 bg-gray-800 absolute top-0 right-0 mb-2 min-w-[200px] z-10 `}
+                className={`
+               bg-white flex flex-col pt-2 pb-5 px-4 bg-opacity-100 absolute top-0 right-0 mb-2 w-full min-h-screen z-10 `}
               >
                 <button
                   onClick={() => setShowMenu(false)}
-                  className="flex justify-start text-white text-2xl"
+                  className="flex justify-start text-2xl"
                 >
                   <AiOutlineClose />
                 </button>
                 <ul className=" space-y-4 flex-1 items-center flex-col pt-5 justify-end ">
                   {navlinks.map((navlink) => {
                     return (
-                      <li
-                        key={navlink.id}
-                        className="text-dimWhite text-lg hover:text-white"
-                      >
-                        <Link href="#">{navlink.name}</Link>
+                      <li key={navlink.id} className="font-bold text-lg">
+                        <Link href={`${navlink.url}`}>{navlink.name}</Link>
                       </li>
                     );
                   })}

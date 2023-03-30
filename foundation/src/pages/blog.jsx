@@ -62,10 +62,10 @@ const Blog = () => {
                     className="relative"
                     href={`/articles/${encodeURIComponent(article.slug)}/`}
                   >
-                    <div className="relative w-full h-[250px] hover:scale-105 duration-300">
+                    <div className="relative w-full h-[250px]">
                       <Image
                         src={article.cover_image}
-                        className="absolute"
+                        className="absolute inset-0 w-full h-full hover:scale-95 duration-300 transition-transform"
                         style={{
                           objectFit: "cover",
                         }}
@@ -115,10 +115,10 @@ const Blog = () => {
               )}
             </div>
             <div className="my-4 text-center">
-                <p>
-                  Page <span>{page}</span> of <span>{totalPages}</span>
-                </p>
-              </div>
+              <p>
+                Page <span>{page}</span> of <span>{totalPages}</span>
+              </p>
+            </div>
           </>
         )}
         <div className="my-20">

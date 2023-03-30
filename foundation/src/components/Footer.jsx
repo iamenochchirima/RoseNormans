@@ -1,57 +1,46 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { BsFacebook, BsInstagram, BsTwitter} from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className="bg-black text-white">
-      <div className="p-4 xs:mx-5 ss:mx-8 md:mx-36 footer">
-        <div className="flex flex-col space-y-2 border-b sm:border-none pb-5">
-          <div className="flex items-center justify-center ss:justify-start ">
-            <Image
-              className=""
-              src={"/icon.svg"}
-              alt="Rose normans logo"
-              width="50"
-              height="50"
-            ></Image>
-            <ul className="flex flex-col ">
-              <li className=" text-lg font-bold">ROSE NORMANS FOUNDATION</li>
-              <li className=" font-medium text-sm tracking-widest">
-                MENTAL HEALTH ORGANISATION
-              </li>
-            </ul>
-          </div>
-          <p>450 Central Park West</p>
-          <p>New York, NY</p>
-          <p>Email: rosenormansfoundation@gmail.com</p>
-          <p>Phone: +260 123 456</p>
-        </div>
-        <div className="border-b sm:border-none pt-4 sm:pt-0 pb-5">
-          <ul>
+    <div className="bg-black pb-5 text-white">
+      <div className="mx-5 md:mx-20 py-5 footer">
+        <div className="">
+          <ul className="font-graphikExtralight sm:flex sm:gap-10">
             <li>
-              <Link href={"#"}>ABOUT US</Link>
+              <Link href={"#"}>About us</Link>
             </li>
             <li>
-              <Link href={"#"}>OUR PROJECTS</Link>
+              <Link href={"#"}>Contact us</Link>
             </li>
             <li>
-              <Link href={"#"}>SERVICES</Link>
+              <Link href={"#"}>Privacy Policy</Link>
             </li>
           </ul>
         </div>
-        <div className="flex flex-col space-y-4 pb-5">
-          <span>CONNECT WITH US</span>
-          <div className="text-3xl flex justify-center ss:justify-start space-x-2 mid:justify-between">
+        <div className="flex flex-col  pb-2">
+          <ul className="text-xl text-dimWhite flex mt-5 sm:mt-0 ss:justify-start gap-5 mid:justify-between">
+            <li>
               <BsFacebook />
+            </li>
+            <li>
               <BsInstagram />
+            </li>
+            <li>
               <BsTwitter />
-          </div>
+            </li>
+          </ul>
         </div>
       </div>
-      <div className="flex justify-center mx-10 ss:mx-36 text-sm space-x-2 text-dimWhite p-4 items-center">
-        <span>Copyright © 2023 Rose Normans Foundation. All rights reserved.</span>
+      <div className="flex-col mx-5 md:mx-20 text-sm text-dimWhite items-center">
+        <p>
+          Copyright © 2023 Rose Normans Foundation. All rights reserved.
+        </p>
+        <p>
+        <a className="" href="https://www.enochchirima.com" target="_blank"> Designed and developed by <span className=" font-bold">Enoch</span></a>
+        </p>
       </div>
     </div>
   );
