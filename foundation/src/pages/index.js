@@ -22,7 +22,7 @@ export default function Home() {
         buttonStyle={{ background: "#3B82F6", color: "white" }}
         buttonText="Okay"
         expires={150}
-        acceptOnScroll={50}
+        acceptOnScroll={600}
       >
         This website uses third-party analytical services to help enhance the
         user experience. For more information see our{" "}
