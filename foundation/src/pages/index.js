@@ -13,7 +13,6 @@ export default function Home() {
       <Services />
       <Projects />
       <CookieConsent
-        debug={true}
         style={{
           textAlign: "center",
           fontSize: "0.875rem",
