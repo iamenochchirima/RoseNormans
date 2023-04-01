@@ -32,7 +32,7 @@ const Gallary = () => {
     <>
      <PagesNavbar/>
       {!isLoading && isSuccess && (
-        <div className="grid grid-cols-2 mt-20 gap-5 mx-5">
+        <div className="grid grid-cols-2 mt-20 gap-5 mx-5 min-h-screen">
           {photos.map((photo) => (
             <div className="col-span-2 mid:col-span-1" key={photo.id}>
               <div className="relative w-full h-[400px]">
@@ -53,7 +53,7 @@ const Gallary = () => {
         </div>
       )}
 
-      <div className="my-20">
+      <div className="my-20 min-h-[400px]">
         {isLoading && <p className="text-center">Loading...</p>}
         {!isLoading && !isSuccess && (
           <p className="text-center">Failed to fetch photos.</p>

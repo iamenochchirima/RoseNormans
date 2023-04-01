@@ -1,6 +1,6 @@
 venv
 .env
-static
-media
+# static
+# media
 *.pyc
 *__pycache__/
