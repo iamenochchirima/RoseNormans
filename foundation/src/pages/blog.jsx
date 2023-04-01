@@ -44,8 +44,6 @@ const Blog = () => {
 
   const totalPages = Math.ceil(count / pageSize);
 
-  console.log(articles);
-
   return (
     <div className="">
       <PagesNavbar />
