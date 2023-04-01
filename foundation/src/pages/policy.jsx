@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import PagesNavbar from "@/components/PagesNavbar";
+import Link from "next/link";
 import React from "react";
 
 const Policy = () => {
@@ -59,7 +60,7 @@ const Policy = () => {
             <h1 className="text-lg font-graphikSemiBold my-3">Contact us</h1>
             <p>
               If you have any questions or concerns about our privacy policy,
-              please contact us <a className="underline" href="/contact">here</a>. By using
+              please contact us <Link className="underline" href="/contact">here</Link>. By using
               our website, you agree to the terms of our privacy policy.
             </p>
           </div>
