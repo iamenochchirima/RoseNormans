@@ -25,9 +25,9 @@ const PagesNavbar = () => {
       <div
         className={`${
           scrolled
-            ? " shadow-md bg-white opacity-90 duration-500"
-            : "bg-transparent"
-        } fixed w-full z-20 p-2  ss:p-4 opacity-100 max-w-[1500px]`}
+            ? " shadow-md opacity-90 duration-500"
+            : ""
+        } fixed w-full  bg-white z-20 p-2  ss:p-4 opacity-100 max-w-[1500px]`}
       >
         <div className="flex justify-between items-center ss:mx-5">
           <Link href="/">
@@ -62,7 +62,7 @@ const PagesNavbar = () => {
               );
             })}
             <li className="text-white bg-blue-500 font-bold rounded-2xl py-1 px-4">
-              <Link href="/support">Support Us</Link>
+              <Link href="/contact">Contact Us</Link>
             </li>
           </ul>
           {showMenu && (

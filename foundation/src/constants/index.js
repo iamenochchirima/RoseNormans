@@ -8,18 +8,18 @@ export const navlinks = [
     },
     {
       id: 2,
-      name: "Gallary",
-      url: "/gallary"
-    },
-    {
-      id: 3,
       name: "Blog",
       url: '/blog'
     },
     {
-      id: 4,
+      id: 3,
       name: "About Us",
       url: "/about"
+    },
+    {
+      id: 4,
+      name: "Gallary",
+      url: "/gallary"
     },
     
 ]

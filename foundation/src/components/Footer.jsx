@@ -10,13 +10,13 @@ const Footer = () => {
         <div className="">
           <ul className="font-graphikExtralight sm:flex sm:gap-10">
             <li>
-              <Link href={"#"}>About us</Link>
+              <Link href={"/about"}>About us</Link>
             </li>
             <li>
               <Link href="/contact">Contact us</Link>
             </li>
             <li>
-              <Link href={"#"}>Privacy Policy</Link>
+              <Link href={"/policy"}>Privacy Policy</Link>
             </li>
           </ul>
         </div>

@@ -31,7 +31,7 @@ const Projects = () => {
   return (
     <div className="font-graphik">
       <PagesNavbar/>
-      <div className="min-h-screen ">
+      <div className="min-h-screen mt-20">
         <div className="relative w-full h-[400px]">
           <div className="absolute w-full h-full z-10  flex flex-col justify-center">
             <h1 className="font-graphikSemiBold text-center text-white text-5xl p-5">

@@ -13,7 +13,7 @@ export default function Home() {
       <Services />
       <Projects />
       <CookieConsent
-        
+        debug={true}
         style={{
           textAlign: "center",
           fontSize: "0.875rem",
@@ -23,7 +23,7 @@ export default function Home() {
         buttonText="Okay"
         expires={150}
       >
-        This website uses third-party analytical services to help enhance the
+        This website uses third-party analytics services to help enhance the
         user experience. For more information see our{" "}
         <a className="underline" href="policy">
           privacy policy

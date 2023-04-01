@@ -75,7 +75,7 @@ const Navbar = () => {
               );
             })}
             <li className="text-white font-bold bg-blue-500 rounded-2xl py-1 px-4">
-              <Link href="/support">Support Us</Link>
+            <Link href="/contact">Contact Us</Link>
             </li>
           </ul>
           {showMenu && (
