@@ -51,7 +51,7 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
-    "https://rose-normans-foundation.vercel.app/"
+    "https://rose-normans-foundation.vercel.app"
 ]
 
 ROOT_URLCONF = 'foundation.urls'
