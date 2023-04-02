@@ -27,7 +27,7 @@ const About = () => {
         </div>
       </div>
       <div className="min-h-screen flex mt-5 mb-10 justify-center">
-        <div className="w-3/4">
+        <div className="sm:w-3/4 mx-5">
           <div className="">
             <h1 className="text-3xl font-graphikBold">Our vision</h1>
             <p className="text-lg my-5">

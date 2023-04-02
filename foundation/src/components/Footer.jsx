@@ -39,7 +39,7 @@ const Footer = () => {
           Copyright © 2023 Rose Normans Foundation. All rights reserved.
         </p>
         <p>
-        <a className="" href="https://www.enochchirima.com" target="_blank"> Designed and developed by <span className=" font-bold">Enoch</span></a>
+        <a className="text-xs" href="https://www.enochchirima.com" target="_blank"> Designed and developed by <span className=" font-bold">Enoch</span></a>
         </p>
       </div>
     </div>
